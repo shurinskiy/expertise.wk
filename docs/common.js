@@ -109,6 +109,18 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var owl_
 
 /***/ }),
 
+/***/ "./src/blocks/reviews/reviews.js":
+/*!***************************************!*\
+  !*** ./src/blocks/reviews/reviews.js ***!
+  \***************************************/
+/*! no exports provided */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var owl_carousel__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! owl.carousel */ \"./node_modules/owl.carousel/dist/owl.carousel.js\");\n/* harmony import */ var owl_carousel__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(owl_carousel__WEBPACK_IMPORTED_MODULE_0__);\n\n\n(function () {\n  $('.reviews__inner').owlCarousel({\n    items: 5,\n    loop: true,\n    margin: 60,\n    dots: false,\n    nav: false\n  });\n})();//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8vLi9zcmMvYmxvY2tzL3Jldmlld3MvcmV2aWV3cy5qcz85OTQ1Il0sIm5hbWVzIjpbIiQiLCJvd2xDYXJvdXNlbCIsIml0ZW1zIiwibG9vcCIsIm1hcmdpbiIsImRvdHMiLCJuYXYiXSwibWFwcGluZ3MiOiJBQUFBO0FBQUE7QUFBQTtBQUFBOztBQUVBLENBQUMsWUFBTTtBQUVOQSxHQUFDLENBQUMsaUJBQUQsQ0FBRCxDQUFxQkMsV0FBckIsQ0FBaUM7QUFDaENDLFNBQUssRUFBRSxDQUR5QjtBQUVoQ0MsUUFBSSxFQUFFLElBRjBCO0FBR2hDQyxVQUFNLEVBQUUsRUFId0I7QUFJaENDLFFBQUksRUFBRSxLQUowQjtBQUtoQ0MsT0FBRyxFQUFFO0FBTDJCLEdBQWpDO0FBUUEsQ0FWRCIsImZpbGUiOiIuL3NyYy9ibG9ja3MvcmV2aWV3cy9yZXZpZXdzLmpzLmpzIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0ICdvd2wuY2Fyb3VzZWwnO1xuXG4oKCkgPT4ge1xuXG5cdCQoJy5yZXZpZXdzX19pbm5lcicpLm93bENhcm91c2VsKHtcblx0XHRpdGVtczogNSxcblx0XHRsb29wOiB0cnVlLFxuXHRcdG1hcmdpbjogNjAsXG5cdFx0ZG90czogZmFsc2UsXG5cdFx0bmF2OiBmYWxzZSxcblx0fSk7XG5cbn0pKCk7XG4iXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///./src/blocks/reviews/reviews.js\n");
+
+/***/ }),
+
 /***/ "./src/js/common.js":
 /*!**************************!*\
   !*** ./src/js/common.js ***!
@@ -117,7 +129,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var owl_
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _blocks_certificate_certificate_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../blocks/certificate/certificate.js */ \"./src/blocks/certificate/certificate.js\");\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8vLi9zcmMvanMvY29tbW9uLmpzPzQ0MGEiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7QUFBQSIsImZpbGUiOiIuL3NyYy9qcy9jb21tb24uanMuanMiLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgXCIuLi9ibG9ja3MvY2VydGlmaWNhdGUvY2VydGlmaWNhdGUuanNcIjtcclxuXHJcbiJdLCJzb3VyY2VSb290IjoiIn0=\n//# sourceURL=webpack-internal:///./src/js/common.js\n");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _blocks_certificate_certificate_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../blocks/certificate/certificate.js */ \"./src/blocks/certificate/certificate.js\");\n/* harmony import */ var _blocks_reviews_reviews_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../blocks/reviews/reviews.js */ \"./src/blocks/reviews/reviews.js\");\n\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8vLi9zcmMvanMvY29tbW9uLmpzPzQ0MGEiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7QUFBQTtBQUFBO0FBQUEiLCJmaWxlIjoiLi9zcmMvanMvY29tbW9uLmpzLmpzIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IFwiLi4vYmxvY2tzL2NlcnRpZmljYXRlL2NlcnRpZmljYXRlLmpzXCI7XHJcbmltcG9ydCBcIi4uL2Jsb2Nrcy9yZXZpZXdzL3Jldmlld3MuanNcIjtcclxuXHJcbiJdLCJzb3VyY2VSb290IjoiIn0=\n//# sourceURL=webpack-internal:///./src/js/common.js\n");
 
 /***/ })
 
