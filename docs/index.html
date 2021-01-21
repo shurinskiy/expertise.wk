@@ -14,14 +14,16 @@
 		<div class="header__inner">
 			<a href="./" class="header__logo"><img src="./images/logo.png" alt=""></a>
 			<nav class="header__navi">
-				<a href="./" class="header__navi-link">О нас</a>
-				<a href="./" class="header__navi-link">Сертификаты</a>
-				<a href="./" class="header__navi-link">Команда</a>
-				<a href="./" class="header__navi-link">Отзывы</a>
-				<a href="./" class="header__navi-link">Контакты</a>
+				<a href="#about" class="header__navi-link">О нас</a>
+				<a href="#certificate" class="header__navi-link">Сертификаты</a>
+				<a href="#staff" class="header__navi-link">Команда</a>
+				<a href="#reviews" class="header__navi-link">Отзывы</a>
+				<a href="#contacts" class="header__navi-link">Контакты</a>
+				<button class="header__request button">Онлайн-заявка</button>
+				<span class="header__navi-close"></span>
 			</nav>
 			<button class="header__request button">Онлайн-заявка</button>
-			<span class="header__navi-toggle"></span>
+			<span class="header__navi-open"></span>
 		</div>
 	</div>
 </header> 
@@ -42,7 +44,7 @@
 	</div>
 </section>
 
-<section class="about">
+<section class="about" id="about">
 	<div class="container">
 		<div class="about__inner">
 			<h1 class="about__title title">Немного о нашей компании</h1>
@@ -98,7 +100,7 @@
 	</div>
 </section>
 
-<section class="certificate">
+<section class="certificate" id="certificate">
 	<div class="container">
 		<div class="certificate__inner">
 			<h1 class="certificate__title title">Наши сертификаты</h1>
@@ -116,7 +118,7 @@
 	</div>
 </section>
 
-<section class="staff">
+<section class="staff" id="staff">
 	<div class="container">
 		<h1 class="staff__title title">С вами будут работать</h1>
 		<div class="staff__inner">
@@ -201,7 +203,7 @@
 	</div>
 </section>
 
-<section class="reviews">
+<section class="reviews" id="reviews">
 	<div class="container">
 		<h1 class="reviews__title title">Отзывы наших клиентов</h1>
 		<div class="reviews__inner owl-carousel">
@@ -214,17 +216,19 @@
 	</div>
 </section>
 
-<section class="contacts">
+<section class="contacts" id="contacts">
 	<div class="container">
 		<h1 class="contacts__title title">Контакты</h1>
 		<div class="contacts__inner">
-			<script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Ac718c90cc911af2fc150ffd2f7a441228a25f7ca64b32df15f70cae7e72c8c51&amp;width=100%25&amp;height=100%25&amp;lang=ru_RU&amp;scroll=false"></script>
 			<div class="contacts__info">
 				<p class="contacts__info-item"><strong>Адрес:</strong> <a href="">117105, Россия, Московская область, Москва, ул. Нагатинская, 1, строение 14</a></p>
 				<p class="contacts__info-item"><strong>Телефон в Москве:</strong> <a href="tel:+79642567171">+7 (964) 256-71-71</a></p>
 				<p class="contacts__info-item"><strong>Центральный офис:</strong> <a href="">610004, Россия, Кировская обл., г. Киров, ул. Профсоюзная, 1, оф. 1106, БЦ «Кристалл»</a></p>
 				<p class="contacts__info-item"><strong>Режим работы:</strong> пн-пт с 8:00 до 17:00 без обеда; сб, вс - выходные. Телефон: +7 (8332) 74-71-71</p>
 				<p class="contacts__info-item"><strong>E-mail:</strong> <a href="mailto:info@centr-neo.ru">info@centr-neo.ru</a></p>
+			</div>
+			<div class="contacts__map">
+				<script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Ac718c90cc911af2fc150ffd2f7a441228a25f7ca64b32df15f70cae7e72c8c51&amp;width=100%25&amp;height=320&amp;lang=ru_RU&amp;scroll=false"></script>
 			</div>
 		</div>
 	</div>
