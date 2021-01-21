@@ -19,10 +19,10 @@
 				<a href="#staff" class="header__navi-link">Команда</a>
 				<a href="#reviews" class="header__navi-link">Отзывы</a>
 				<a href="#contacts" class="header__navi-link">Контакты</a>
-				<button class="header__request header__request_inner button">Онлайн-заявка</button>
+				<button class="header__request header__request_inner button" data-modal="order">Онлайн-заявка</button>
 				<span class="header__navi-close"></span>
 			</nav>
-			<button class="header__request header__request_outer button">Онлайн-заявка</button>
+			<button class="header__request header__request_outer button" data-modal="order">Онлайн-заявка</button>
 			<span class="header__navi-open"></span>
 		</div>
 	</div>
@@ -105,14 +105,14 @@
 		<div class="certificate__inner">
 			<h1 class="certificate__title title">Наши сертификаты</h1>
 			<div class="certificate__items owl-carousel">
-				<a href="#" class="certificate__item"><img src="./images/sertificate-1.jpg" alt=""></a>
-				<a href="#" class="certificate__item"><img src="./images/sertificate-2.jpg" alt=""></a>
-				<a href="#" class="certificate__item"><img src="./images/sertificate-3.jpg" alt=""></a>
-				<a href="#" class="certificate__item"><img src="./images/sertificate-4.jpg" alt=""></a>
-				<a href="#" class="certificate__item"><img src="./images/sertificate-5.jpg" alt=""></a>
-				<a href="#" class="certificate__item"><img src="./images/sertificate-6.jpg" alt=""></a>
-				<a href="#" class="certificate__item"><img src="./images/sertificate-7.jpg" alt=""></a>
-				<a href="#" class="certificate__item"><img src="./images/sertificate-8.jpg" alt=""></a>
+				<a href="#" class="certificate__item" data-modal=""><img src="./images/sertificate-1.jpg" alt=""></a>
+				<a href="#" class="certificate__item" data-modal=""><img src="./images/sertificate-2.jpg" alt=""></a>
+				<a href="#" class="certificate__item" data-modal=""><img src="./images/sertificate-3.jpg" alt=""></a>
+				<a href="#" class="certificate__item" data-modal=""><img src="./images/sertificate-4.jpg" alt=""></a>
+				<a href="#" class="certificate__item" data-modal=""><img src="./images/sertificate-5.jpg" alt=""></a>
+				<a href="#" class="certificate__item" data-modal=""><img src="./images/sertificate-6.jpg" alt=""></a>
+				<a href="#" class="certificate__item" data-modal=""><img src="./images/sertificate-7.jpg" alt=""></a>
+				<a href="#" class="certificate__item" data-modal=""><img src="./images/sertificate-8.jpg" alt=""></a>
 			</div>
 		</div>
 	</div>
@@ -197,7 +197,7 @@
 				<span>Закажите онлайн-оценку прямо сейчас и получите скидку 10%</span>
 				<span>Просто нажмите на кнопку ниже и заполните форму</span>
 			</h3>
-			<button class="now__button button">Заполнить форму</button>
+			<button class="now__button button" data-modal="order">Заполнить форму</button>
 			<span class="now__note">Нажимая кнопку, вы принимаете условия <a href="./">публичной оферты</a> и даете согласие на обработку <a href="./">персональных данных</a></span>
 		</div>
 	</div>
@@ -208,11 +208,11 @@
 		<div class="reviews__inner">
 			<h1 class="reviews__title title">Отзывы наших клиентов</h1>
 			<div class="reviews__items owl-carousel">
-				<a href="#" class="reviews__item"><img src="./images/gratitude-1.jpg" alt=""></a>
-				<a href="#" class="reviews__item"><img src="./images/gratitude-2.jpg" alt=""></a>
-				<a href="#" class="reviews__item"><img src="./images/gratitude-3.jpg" alt=""></a>
-				<a href="#" class="reviews__item"><img src="./images/gratitude-4.jpg" alt=""></a>
-				<a href="#" class="reviews__item"><img src="./images/gratitude-5.jpg" alt=""></a>
+				<a href="#" class="reviews__item" data-modal=""><img src="./images/gratitude-1.jpg" alt=""></a>
+				<a href="#" class="reviews__item" data-modal=""><img src="./images/gratitude-2.jpg" alt=""></a>
+				<a href="#" class="reviews__item" data-modal=""><img src="./images/gratitude-3.jpg" alt=""></a>
+				<a href="#" class="reviews__item" data-modal=""><img src="./images/gratitude-4.jpg" alt=""></a>
+				<a href="#" class="reviews__item" data-modal=""><img src="./images/gratitude-5.jpg" alt=""></a>
 			</div>
 		</div>
 	</div>
@@ -245,10 +245,15 @@
 				<a href="./" class="footer__social-item footer__social-item_inst"></a>
 				<a href="./" class="footer__social-item footer__social-item_fb"></a>
 			</div>
-			<button class="footer__request button">Заказать оценку онлайн</button>
+			<button class="footer__request button" data-modal="order">Заказать оценку онлайн</button>
 		</div>
 	</div>
-</footer> 
+</footer>
+
+<div class="modal__hidden" id="order">
+
+</div>
+
 <script type="text/javascript" charset="utf-8" src="jquery.min.js"></script>
 <script src="common.js"></script> 
 </body> 
