@@ -9,7 +9,7 @@
 </head> 
 <body class="home"> 
  
-<header class="header">
+<header class="header" data-scroll-lock-fill-gap>
 	<div class="container">
 		<div class="header__inner">
 			<a href="./" class="header__logo"><img src="./images/logo.png" alt=""></a>
@@ -241,9 +241,9 @@
 		<div class="footer__inner">
 			<div class="footer__social">
 				<span>Подписывайтесь на наши соц.сети:</span>
-				<a href="./" class="footer__social-item footer__social-item_vk"></a>
-				<a href="./" class="footer__social-item footer__social-item_inst"></a>
-				<a href="./" class="footer__social-item footer__social-item_fb"></a>
+				<a href="https://vk.com/centrneo.kirov" class="footer__social-item footer__social-item_vk"></a>
+				<a href="https://www.instagram.com/centr.neo/" class="footer__social-item footer__social-item_inst"></a>
+				<a href="https://www.facebook.com/centr.neo/" class="footer__social-item footer__social-item_fb"></a>
 			</div>
 			<button class="footer__request button" data-modal="order">Заказать оценку онлайн</button>
 		</div>
@@ -251,7 +251,64 @@
 </footer>
 
 <div class="modal__hidden" id="order">
-
+	<form class="modal__form" action="./">
+		<div class="modal__field">
+			<span class="modal__label">Объект оценки</span>
+			<label class="modal__radio">
+				<input type="radio" name="object" value="1" checked>
+				<span>Квартирa</span>
+			</label>
+			<label class="modal__radio">
+				<input type="radio" name="object" value="2">
+				<span>Дом + Земельный участок</span>
+			</label>
+			<label class="modal__radio">
+				<input type="radio" name="object" value="3">
+				<span>Земельный участок</span>
+			</label>
+		</div>
+		<div class="modal__field">
+			<span class="modal__label">Адрес объекта</span>
+			<input class="modal__input" type="text" placeholder="Начните вводить адрес и выберите подходящий вариант">
+		</div>
+		<div class="modal__field modal__field_half">
+			<span class="modal__label">Серия и номер паспорта</span>
+			<input class="modal__input" type="text" placeholder="99 99 999999">
+		</div>
+		<div class="modal__field modal__field_half">
+			<span class="modal__label">Дата выдачи паспорта</span>
+			<input class="modal__input" type="text" placeholder="YYYY.MM.DD">
+		</div>
+		<div class="modal__field">
+			<span class="modal__label">Кем выдан</span>
+			<input class="modal__input" type="text" placeholder="">
+		</div>
+		<div class="modal__field">
+			<span class="modal__label">Код подразделения</span>
+			<input class="modal__input" type="text" placeholder="999-999">
+		</div>
+		<div class="modal__field">
+			<span class="modal__label">Адрес регистрации</span>
+			<input class="modal__input" type="text" placeholder="Начните вводить адрес и выберите подходящий вариант">
+		</div>
+		<div class="modal__field">
+			<span class="modal__label">Ф.И.О</span>
+			<input class="modal__input" type="text" placeholder="Иванов Иван Иванович">
+		</div>
+		<div class="modal__field modal__field_half">
+			<span class="modal__label">Номер телефона</span>
+			<input class="modal__input" type="text" placeholder="+7 (999) 999-99-99">
+		</div>
+		<div class="modal__field modal__field_half">
+			<span class="modal__label">Email адрес</span>
+			<input class="modal__input" type="text" placeholder="my@email.ru">
+		</div>
+		<div class="modal__total">Итого: <span>8000 руб</span></div>
+		<div class="modal__bottom">
+			<input class="modal__submit button" type="submit" value="Оформить заказ">
+			<p class="modal__note">Нажимая кнопку, вы принимаете условия <a href="./">публичной оферты</a> и даете согласие на обработку <a href="./">персональных данных</a></p>
+		</div>
+	</form>
 </div>
 
 <script type="text/javascript" charset="utf-8" src="jquery.min.js"></script>
